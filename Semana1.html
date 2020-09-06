@@ -1,15 +1,10 @@
-<!--1 Exercícios
-Aplique CSS aos elementos da sua página do exercício anterior. Você deve, necessariamente:
-- Usar CSS inline
-- Especificar regras CSS no elemento style na própria página HTML
-- Especificar regras CSS em um arquivo à parte
+<!--Exercícios
 
-- Utilizar seletores por tipo, classe e id
+1. Use os recursos vistos em aula para tornar a sua página mais atraente visualmente.
 
-- Utilizar seletores descendentes
+2. Ajuste sua página para que o layout principal seja fluído.
 
-- Utilizar seletores que agrupam classes, ids e tipos
-Seja criativo. Lembre-se que você está tentando divulgar os cursos da sua empresa.-->
+3. Torne a sua página responsiva usando media queries..-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,37 +15,31 @@ Seja criativo. Lembre-se que você está tentando divulgar os cursos da sua empr
 
     <link rel="stylesheet" href="css\style.css">
 
-    <style type="text/css">
-        .curso{
-            text-align: center;
-            font-size: 20px;
+    <script language="javascript">
+       
+        function aumenta(obj){
+            obj.height=obj.height*2;
+            obj.width=obj.width*2;
+        }
+         
+        function diminui(obj){
+            obj.height=obj.height/2;
+            obj.width=obj.width/2;
+        }
+        //-->
+        </script>
 
-        }
-        h1{
-            font-family: cursive;
-        }
-        div h3{
-            color:rgb(15, 76, 104);
-        }
-.curso img{
-    width: 280px;
-    height: 160px;
-    border:solid 4px;
-    border-color:rgb(15, 76, 104);
-}
-
-    </style>
 
 </head>
 <body>
-    <h1 style="font-size: 60px; text-align: center; color:rgb(15, 76, 104);">FACULDADE TOP AMANDA</h1>
+    <h1>FACULDADE TOP AMANDA</h1>
 
     <h2 >CURSOS</h2>
 
     <div class="curso">
         <h3>Farmácia</h3>
         
-            <img src="imgs\farmacia.jpg" alt="" width="200px" height="200px">
+            <img src="imgs\farmacia.jpg" alt="">
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam rem ad doloribus cum consequatur maxime dolorem repellat ipsam. Soluta? orem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore.</p>
 
@@ -61,13 +50,13 @@ Seja criativo. Lembre-se que você está tentando divulgar os cursos da sua empr
         <h3>Veterinária</h3>
         <div id="caixinha">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam rem ad doloribus cum consequatur maxime dolorem repellat ipsam. Soluta? orem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore.</p>
-            <img src="imgs\veterinaria.jpg" alt="" width="200px" height="200px">
+            <img src="imgs\veterinaria.jpg" alt="">
         </div>
     </div>
     <div class="curso">
         <h3>Ciência da Computação</h3>
         <div id="caixinha"> 
-            <img src="imgs\cienciaComputa.jpg" alt="" width="200px" height="200px">
+            <img src="imgs\cienciaComputa.jpg" alt="">
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam rem ad doloribus cum consequatur maxime dolorem repellat ipsam. Soluta? orem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore.</p>
         </div>
@@ -76,13 +65,13 @@ Seja criativo. Lembre-se que você está tentando divulgar os cursos da sua empr
         <h3>Matemática</h3>
         <div id="caixinha">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam rem ad doloribus cum consequatur maxime dolorem repellat ipsam. Soluta? orem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore.</p>
-            <img src="imgs\matematica.jpg" alt="" width="200px" height="200px">
+            <img src="imgs\matematica.jpg" alt="">
         </div>
     </div>
     <div class="curso">
         <h3>Geografia</h3>
         <div id="caixinha">
-            <img src="imgs\geografia.jpg" alt="" width="200px" height="200px">
+            <img src="imgs\geografia.jpg" alt="">
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam rem ad doloribus cum consequatur maxime dolorem repellat ipsam. Soluta? orem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore.</p>
         </div>
