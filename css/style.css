@@ -1,0 +1,30 @@
+body{
+ background-color:  rgb(165, 216, 224);
+
+}
+
+h2{
+
+ color:rgb(15, 76, 104);
+ font-size: 30px;
+  text-align: center; 
+  color:rgb(15, 76, 104);
+  margin-bottom: 60px;
+}
+
+.curso p{
+    font-family: cursive;
+    font-style: normal;
+    font-size: 15x;
+    background-color: rgb(15, 76, 104);
+
+    color: rgb(165, 216, 224);
+    width: 400px;
+    display: inline-block;
+    
+}
+
+#rodape{
+    background-color:rgb(15, 76, 104);
+    color: rgb(165, 216, 224);
+}
