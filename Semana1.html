@@ -13,73 +13,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AMANDA FACULDADE</title>
 
-    <link rel="stylesheet" href="css\style.css">
-
-    <script language="javascript">
-       
-        function aumenta(obj){
-            obj.height=obj.height*2;
-            obj.width=obj.width*2;
-        }
-         
-        function diminui(obj){
-            obj.height=obj.height/2;
-            obj.width=obj.width/2;
-        }
-        //-->
-        </script>
-
-
+    <!--<link rel="stylesheet" href="css\style.css">-->
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-    <h1>FACULDADE TOP AMANDA</h1>
+    <header>
 
-    <h2 >CURSOS</h2>
+        <div class="bg-dark">
+          <div class="container text-center text-white">
+                <strong class="navbar-brand ">FACULDADE AMANDA</strong>
 
-    <div class="curso">
-        <h3>Farmácia</h3>
-        
-            <img src="imgs\farmacia.jpg" alt="">
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam rem ad doloribus cum consequatur maxime dolorem repellat ipsam. Soluta? orem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore.</p>
-
+          </div>
         </div>
-</div>
+      </header>
+  
+      <main role="main">
+  
+        <section class="jumbotron text-center">
+          <div class="container">
+            <h1 class="jumbotron-heading">Bem vindo a nossa faculdade!</h1>
+            <p class="lead text-muted">Nossa faculdade é totalmente focada na sua evolução pessoal e profissional dos alunos. Venha conhecer!</p>
+          </div>
+        </section>
 
-    <div class="curso">
-        <h3>Veterinária</h3>
-        <div id="caixinha">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam rem ad doloribus cum consequatur maxime dolorem repellat ipsam. Soluta? orem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore.</p>
-            <img src="imgs\veterinaria.jpg" alt="">
-        </div>
-    </div>
-    <div class="curso">
-        <h3>Ciência da Computação</h3>
-        <div id="caixinha"> 
-            <img src="imgs\cienciaComputa.jpg" alt="">
+          <div class="container">
+  
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" style="height: 225px; width: 100%; display: block;" src="imgs/ciencias.jpg">
+                  <div class="card-body">
+                    <div class="text-black"><strong>Ciência da Computação</strong> </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam rem ad doloribus cum consequatur maxime dolorem repellat ipsam. Soluta? orem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore.</p>
-        </div>
-    </div>
-    <div class="curso">
-        <h3>Matemática</h3>
-        <div id="caixinha">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam rem ad doloribus cum consequatur maxime dolorem repellat ipsam. Soluta? orem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore.</p>
-            <img src="imgs\matematica.jpg" alt="">
-        </div>
-    </div>
-    <div class="curso">
-        <h3>Geografia</h3>
-        <div id="caixinha">
-            <img src="imgs\geografia.jpg" alt="">
+                    <p class="card-text">Formamos profissionais qualificados para desenvolver programas e sistemas de informática desde o planejamento do projeto até a implantação e gerenciamento do software.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" src="imgs/arquitetura.png"  style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <div class="text-black"><strong>arquitetura</strong> </div>
+                    <p class="card-text">Nosso curso de arquitetura está disponibiliza o estudo para projetar edifícios, aplicamos ciência e arte. Sua duração é de 5 anos.</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam rem ad doloribus cum consequatur maxime dolorem repellat ipsam. Soluta? orem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolore.</p>
-        </div>
-    </div>
-<br><br>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top"  src="imgs/biotecnologia.png"  style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <div class="text-black"><strong>Biotecnologia</strong> </div>
+                    <p class="card-text">Nossos universitários estudam sobre as tecnologias da saúde, alimentação, química e ambiental. Sua duração é de 4 anos, nesse período nossos alunos utilizarão das melhores tecnologias.</p>
 
-    <footer id="rodape">
-       <p> Venha conhecer nossa escola!! <address>Rua do teste, 1500 - Bairro do Teste - Teste</address> <p> 11 99898-9889</p></p>
-      </footer> 
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top"  src="imgs/engenharia.jpg"  style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <div class="text-black"><strong>Engenharia Civíl</strong> </div>
+                    <p class="card-text">Esta graduação forma profissionais capazes de planejar, projetar, gerenciar e executar obras e construções civis e urbanas tais como pontes, barragens, aeroportos e muito mais.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top"  src="imgs/gastronomia.png"  style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <div class="text-black"><strong>Gastronomia</strong> </div>
+                    <p class="card-text">Vocês irão aprender sobre gestão, segurança alimentar, processos industriais, valor nutricional e características dos alimentos, legislação relacionada à indústria alimentícia e muito mais.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top"  src="imgs/veterinaria.jpg"  style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <div class="text-black"><strong>Veterinária</strong> </div>
+                    <p class="card-text">O curso de Veterinária, ciência que estuda a prevenção e tratamento das doenças dos animais, O curso de Medicina Veterinária dura em média 5 anos.</p>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+  
+      </main>
+  
+      <footer class="bg-dark">
+        <div class="container text-center text-white">
+          <p>Faculdade AMANDA</p>
+          <p>Rua teste, 123 - Teste - TS</p>
+        <div>
+      </footer>
+  
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>      
+  
 </body>
 </html>
